@@ -1,4 +1,4 @@
-# TerminalQuest-InsaneGame
+//TerminalQuest-InsaneGame
 programa
 {
 	inclua biblioteca Matematica --> mat
@@ -54,7 +54,7 @@ programa
 	}
 
                     
-	inteiro y = 4, x = 5, anterior_x = 0, anterior_y = 4, fase = 0, integridade = 100, bits = integridade
+	inteiro y = 4, x = 2, anterior_x = 0, anterior_y = 4, fase = 0, integridade = 100, bits = integridade
 	inteiro x_chave, y_chave, n_itens = 0
 	inteiro  possui_chave[6] = {0,0,0,0,0,0}
 	inteiro x_caixa[3], y_caixa[3], caixa_moviday, caixa_movidax
@@ -89,8 +89,6 @@ programa
 			}
 		}
 		cadeia comandos
-
-		
 		pular_dialogo = terminalQuest()
 
 		se(nao pular_dialogo){
@@ -808,7 +806,7 @@ programa
 		escreva("│\n")
 		escreva("│ KERNEL V.", versao,  "                                                │\n")
 		escreva("│ ARMA: 0 & 1                                                 │\n")
-		escreva("│ DANO: ", dano, " p/un                                              │\n")
+		escreva("│ DANO: " dano, " p/un                                              │\n")
 		escreva("└─────────────────────────────────────────────────────────────┘\n\n")
 
 		u.aguarde(u.sorteia(300, 700))
@@ -836,7 +834,7 @@ programa
 		
 		escreva("┌─ COMMANDS ──────────────────────────────────────────────────┐\n")
 		escreva("│ ./attack    ./daemon                                        │\n")
-		escreva("│      ./scan      ", escape, "                                   │\n")
+		escreva("│                  ", escape, "                                   │\n")
 		escreva("└─────────────────────────────────────────────────────────────┘\n\n")
 		
 		escreva("operator@kernel:~/Arena?$: ./") leia(escolha_)
