@@ -265,6 +265,11 @@ programa
 				}
 			}
 		}
+			se((possui_chave[fase] == 1)){
+				matriz[3][11] = "\\"
+				matriz[4][11] = "/"
+				porta_saida[fase] = verdadeiro
+			}
 			se((fase > 0)){
 				matriz[3][0] = "\\"
 				matriz[4][0] = "/"
