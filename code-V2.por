@@ -711,7 +711,6 @@ programa
 		escreva("│ KERNEL V.", versao,  "                                                │\n")
 		escreva("│ ARMA: 0 & 1                                                 │\n")
 		escreva("│ DANO: ", dano, " p/un                                              │\n")
-		escreva("│\n")
 		escreva("└─────────────────────────────────────────────────────────────┘\n\n")
 
 		u.aguarde(u.sorteia(300, 700))
@@ -732,7 +731,7 @@ programa
 		
 		escreva("│\n")
 		escreva("│ BUFFER: instável                                            │\n")
-		escreva("│ DANO: ", dano_inimigo, " (20% crítico)                                      │\n")
+		escreva("│ DANO: ", dano_inimigo, " (20% crítico)                                       │\n")
 		escreva("└─────────────────────────────────────────────────────────────┘\n\n")
 
 		u.aguarde(u.sorteia(300, 700))
